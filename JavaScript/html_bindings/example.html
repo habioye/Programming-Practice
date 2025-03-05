@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="parent-id">
+      <p>hello word1</p>
+      <p id="test1">hello word2</p>
+      <p>hello word3</p>
+      <p>hello word4</p>
+      <p id="foo" value=0>click to open rate</p>
+    </div>
+    <script src="html_bindings.js"></script>
+    <script>
+      const parentDOM = document.getElementById("parent-id");
+      const test1 = document.getElementById("test1");
+      
+      console.log("who are ")
+      
+      // throw error
+      // Uncaught TypeError: parentDOM.getElementById is not a function
+    </script>
+  </body>
+</html>
